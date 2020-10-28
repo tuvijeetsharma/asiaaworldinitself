@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Balsamiq Sans', cursive;
+  background-repeat: no-repeat;
+  background-size: 4000px 5000px;
+  height: 100%;
+  font-weight: bolder;
+  background-position: center;
+  color: lawngreen;
+}
+
+.section-container {
+  background-image: url("https://images.unsplash.com/photo-1575550959106-5a7defe28b56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  color: white;
+  font-weight: 2000;
+}
+
+.container {
+  background-image: url("https://images.unsplash.com/uploads/14135798609283698b7f3/a1364128?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
+  background-repeat: no-repeat;
+    background-size: 10000px 10340px;
+    color: white;
+    font-weight: 2000;
+}
+
+.head {
+  font-size: 100px;
+  color: white;
+  margin-left: 350px;
+}
+
+.mammal {
+  font-size: 100px;
+  color: darkviolet;
+  margin-left: 500px;
+  width: 510px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 5px solid deeppink;
+  text-align: center;
+  background-image: url("https://image.freepik.com/free-vector/cute-seamless-pattern-with-cartoon-baby-panda-star-kids-animal-pink-background_71374-236.jpg");
+}
+
+.aquatic {
+  font-size: 90px;
+  color: midnightblue;
+  margin-left: 500px;
+  width: 510px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 5px solid mediumpurple;
+  text-align: center;
+  background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v845-katie-50.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=ac04ff8b205f7c40052614c39c357449");
+}
+
+.reptiles {
+  font-size: 90px;
+  color: crimson;
+  margin-left: 500px;
+  width: 510px;
+  padding: 10px;
+  border: 5px solid darkred;
+  border-radius: 10px;
+  text-align: center;
+  background: url("https://thumbs.dreamstime.com/b/seamless-background-dragon-reptile-gender-neutral-baby-pattern-simple-whimsical-minimal-earthy-tone-color-kids-nursery-wallpaper-187893749.jpg");
+}
+
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  h1 {
+     margin-left: 250px;
+     color: lawngreen;
+     text-shadow: 3px 3px 5px black;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#bar {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd52-6-nap-07a_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=dad705933c4d82164ab42834a78da758");
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+ }
+
+ #wolf>p {
+    text-align: center;
+    font-size: 1.5em;
+    border: 3px solid black;
+    width: 500px;
+    color: whitesmoke;
+    background-color: brown;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+
+#wolf>img {
+   margin-left: 900px;
+   width: 400px;
+   height: 400px;
+   border-radius: 200%;
+   position: absolute;
+   top: 1740px;
+   }
+
+   #wolf>h3 {
+    font-size: 2.4em;
+    text-align: center;
+    color: darkslateblue;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#tiger>h3 {
+  font-size: 2.4em;
+  text-align: center;
+  color: darkturquoise;
+  text-shadow: 2px 2px 5px black;
+}
+
+
+#tiger>img {
+  margin-left: 900px;
+  width: 400px;
+  height: 400px;
+  border-radius: 200%;
+  position: absolute;
+  top: 2500px;
+  }
+
+  #tiger>p {
+    text-align: center;
+    font-size: 1.5em;
+    border: 3px solid black;
+    width: 500px;
+    color: white;
+    background-color: lightslategrey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+
+#deer>p {
+  text-align: center;
+  font-size: 1.5em;
+  border: 3px solid black;
+  width: 500px;
+  color: white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 120px;
+  margin-left: 200px;
+}
+
+
+#deer>img {
+  margin-left: 900px;
+  width: 400px;
+  height: 400px;
+  border-radius: 200%;
+  position: absolute;
+  top: 3300px;
+  }
+
+  #deer>h3 {
+    font-size: 2.4em;
+    text-align: center;
+    color: brown;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  #elephant>p {
+    text-align: center;
+    font-size: 1.5em;
+    border: 3px solid black;
+    width: 500px;
+    color: white;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 120px;
+    margin-left: 200px;
+  }
+  
+  
+  #elephant>img {
+    margin-left: 900px;
+    width: 400px;
+    height: 400px;
+    border-radius: 200%;
+    position: absolute;
+    top: 4140px;
+    }
+  
+    #elephant>h3 {
+      font-size: 2.4em;
+      text-align: center;
+      color: lawngreen;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    
+  #dugong>p {
+    text-align: center;
+    font-size: 1.5em;
+    border: 3px solid black;
+    width: 500px;
+    color: white;
+    background-color: seagreen;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 120px;
+    margin-left: 200px;
+  }
+  
+  
+  #dugong>img {
+    margin-left: 900px;
+    width: 400px;
+    height: 400px;
+    border-radius: 200%;
+    position: absolute;
+    top: 5100px;
+    }
+  
+    #dugong>h3 {
+      font-size: 2.4em;
+      text-align: center;
+      color: blue;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    #fish>p {
+      text-align: center;
+      font-size: 1.5em;
+      border: 3px solid black;
+      width: 500px;
+      color: white;
+      background-color: greenyellow;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 120px;
+      margin-left: 200px;
+    }
+    
+    
+    #fish>img {
+      margin-left: 900px;
+      width: 400px;
+      height: 400px;
+      border-radius: 200%;
+      position: absolute;
+      top: 5900px;
+      }
+    
+      #fish>h3 {
+        font-size: 2.4em;
+        text-align: center;
+        color: yellow;
+        text-shadow: 2px 2px 5px black;
+      }
+
+
+      #seals>p {
+        text-align: center;
+        font-size: 1.5em;
+        border: 3px solid black;
+        width: 500px;
+        color: white;
+        background-color: burlywood;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 120px;
+        margin-left: 200px;
+      }
+      
+      
+      #seals>img {
+        margin-left: 900px;
+        width: 400px;
+        height: 400px;
+        border-radius: 200%;
+        position: absolute;
+        top: 6600px;
+        }
+      
+        #seals>h3 {
+          font-size: 2.4em;
+          text-align: center;
+          color: indigo;
+          text-shadow: 2px 2px 5px black;
+        }
+  
+  
+        #giant>p {
+          text-align: center;
+          font-size: 1.5em;
+          border: 3px solid black;
+          width: 500px;
+          color: white;
+          background-color: darkorange;
+          border-radius: 10px;
+          padding: 10px;
+          margin-top: 120px;
+          margin-left: 200px;
+        }
+        
+        
+        #giant>img {
+          margin-left: 900px;
+          width: 400px;
+          height: 400px;
+          border-radius: 200%;
+          position: absolute;
+          top: 7390px;
+          }
+        
+          #giant>h3 {
+            font-size: 2.4em;
+            text-align: center;
+            color: deeppink;
+            text-shadow: 2px 2px 5px black;
+          }
+    
+          #viper>p {
+            text-align: center;
+            font-size: 1.5em;
+            border: 3px solid black;
+            width: 500px;
+            color: white;
+            background-color: orangered;
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 120px;
+            margin-left: 200px;
+          }
+          
+          
+          #viper>img {
+            margin-left: 900px;
+            width: 400px;
+            height: 400px;
+            border-radius: 200%;
+            position: absolute;
+            top: 8430px;
+            }
+          
+            #viper>h3 {
+              font-size: 2.4em;
+              text-align: center;
+              color: rebeccapurple;
+              text-shadow: 2px 2px 5px black;
+            }
+          
+              #monitorlizards>p {
+                text-align: center;
+                font-size: 1.5em;
+                border: 3px solid black;
+                width: 500px;
+                color: white;
+                background-color: brown;
+                border-radius: 10px;
+                padding: 10px;
+                margin-top: 120px;
+                margin-left: 200px;
+              }
+              
+              
+              #monitorlizards>img {
+                margin-left: 900px;
+                width: 400px;
+                height: 400px;
+                border-radius: 200%;
+                position: absolute;
+                top: 9140px;
+                }
+              
+                #monitorlizards>h3 {
+                  font-size: 2.4em;
+                  text-align: center;
+                  color: indianred;
+                  text-shadow: 2px 2px 5px black;
+                }
+        
+                #dragon>p {
+                  text-align: center;
+                  font-size: 1.5em;
+                  border: 3px solid black;
+                  width: 500px;
+                  color: white;
+                  background-color: forestgreen;
+                  border-radius: 10px;
+                  padding: 10px;
+                  margin-top: 120px;
+                  margin-left: 200px;
+                }
+                
+                
+                #dragon>img {
+                  margin-left: 900px;
+                  width: 400px;
+                  height: 400px;
+                  border-radius: 200%;
+                  position: absolute;
+                  top: 9900px;
+                  }
+                
+                  #dragon>h3 {
+                    font-size: 2.4em;
+                    text-align: center;
+                    color: goldenrod;
+                    text-shadow: 2px 2px 5px black;
+                  }
+      
+                  #gecko>p {
+                    text-align: center;
+                    font-size: 1.5em;
+                    border: 3px solid black;
+                    width: 500px;
+                    color: white;
+                    background-color: orange;
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-top: 120px;
+                    margin-left: 200px;
+                  }
+                  
+                  
+                  #gecko>img {
+                    margin-left: 900px;
+                    width: 400px;
+                    height: 400px;
+                    border-radius: 200%;
+                    position: absolute;
+                    top: 10600px;
+                    }
+                  
+                    #gecko>h3 {
+                      font-size: 2.4em;
+                      text-align: center;
+                      color: darkslateblue;
+                      text-shadow: 2px 2px 5px black;
+                    }
+      
+                    #button-top {
+                      background-image: url("https://img.freepik.com/free-photo/natural-white-marble-texture-skin-tile-wallpaper-luxurious-background_24076-297.jpg?size=626&ext=jpg");
+                      padding: 10px;
+                      margin-left: 670px;
+                      border: 2px solid black;
+                      margin-top: 5000px;
+                  }
+                  
+                  #scroll {
+                    width: 200px;
+                    position: relative;
+                    animation: mymove 3s infinite;
+                    animation-play-state: running;
+                   margin-left: 650px;
+                }
+                
+                @keyframes mymove {
+                    from {
+                        top: 15px;
+                    }
+                
+                    to {
+                        top: 100px;
+                    }
+                }

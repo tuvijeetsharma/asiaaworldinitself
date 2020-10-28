@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+body {
+    font-family: 'Kavoon', cursive;
+    background-image: linear-gradient(orange, red, yellow);
+    color: white;
+}
+
+.answer {
+    text-align: center;
+    
+}
+
+.here {
+    font-size: 3em;
+}
+
+.answer>p {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    margin-left: 10px;
+}

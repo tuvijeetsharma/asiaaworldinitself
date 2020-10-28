@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why</title>
+    <link rel="stylesheet" href="./why.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="items"><a href="index.html">Home</a></li>
+      <li class="items"><a href="aboutus.html">About Us!</a></li>
+      <li class="items"><a href="contact.html">Contact</a></li>
+      <li class="items"><a href="why.html">Why</a></li>
+
+<li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+</ul>
+</nav>
+  <script>
+    $(document).ready(function(){
+      $('.btn').click(function(){
+        $('.items').toggleClass("show");
+        $('ul li').toggleClass("hide");
+      });
+    });
+  </script>
+  <br>
+ 
+  <h1 class="ml3">Why We Have Made This Page??</h1>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <p>There is a reason behing why we made it,  We wanted to spread awareness about the continent Asia(A World In Ttself). <br> So for that you will get to know more about (Climate,Animals,Flora, About Asia) in this WebSite</p>
+</body>
+<script src="./why.js"></script>
+</html>

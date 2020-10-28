@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="animal.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 20px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: darkturquoise;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .header {
+  background-color: deeppink;
+  padding: 16px;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: #ccc;
+  height: 370px;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: #F1F1F1;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  #here {
+    text-align: center;
+  }
+
+  h3 {
+    color: black;
+  }
+
+</style>
+  </head>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      document.body.style.backgroundColor = "white";
+    }
+    </script>
+
+  <body>
+ <div class="section-container">
+    <div class="direction" id="here">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;
+        MENU!</span>
+    </div>
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="region.html">Countries</a>
+<a href="climate.html">Climate</a>
+<a href="flora.html">Flora</a>
+<a href="animal.html">Fauna</a>
+</div> 
+<br> <br> <br> <br> <br>
+<h1 class="head">ANIMALS OF ASIA</h1>
+<img id="scroll" src="https://www.freeiconspng.com/thumbs/white-arrow-png/white-down-arrow-png-2.png" alt="">
+</div>
+<div id="homenav">
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">GO TO
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="header">
+        <h2>ASIAN ANIMALS</h2>
+      </div>   
+      <div class="row">
+        <div class="column">
+          <h3>LAND ANIMALS </h3>
+          <a href="#wolf">WOLF</a>
+        <a href="#tiger">BENGAL TIGER</a>
+        <a href="#deer">BARKING DEER</a>
+        <a href="#elephant">ASIAN ELEPHANT</a>
+        </div>
+        <div class="column">
+          <h3>AQUATIC ANIMALS </h3>
+          <a href="#dugong">DUGONG</a>
+          <a href="#fish">REDTAIL BUTTERFLYFISH</a>
+          <a href="#seals">BAIKAL SEALS</a>
+          <a href="#giant">GIANT GOURAMI</a>
+        </div>
+        <div class="column">
+          <h3>REPTILES</h3>
+          <a href="#viper">VIPERIDAE</a>
+          <a href="#monitorlizards">MONITOR LIZARDS</a>
+          <a href="#dragon">KOMODO DARGON</a>
+          <a href="#gecko">TOKAY GECKO</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+</div>
+<div class="container">
+  <h1 class="ml2" id="home">Welcome to the world of Animals in Asia</h1>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<br> <br>
+
+
+
+<h1 class="mammal">LAND ANIMALS</h1>
+  
+<br> <br>
+<div class="land">
+
+<div id="wolf">
+    <h3>WOLF</h3>
+    <hr>
+    <br>
+    <br>
+    <p>
+        The wolf (Canis lupus[a]), also known as the gray wolf or grey wolf, is a large canine native to Eurasia and North America. More than thirty subspecies of Canis lupus have been recognized, and gray wolves, as colloquially understood, comprise non-domestic/feral subspecies. The wolf is the largest extant member of Canidae, males averaging 40 kg (88 lb) and females 37 kg (82 lb). Wolves measure 105–160 cm (41–63 in) in length and 80–85 cm (31–33 in) at shoulder height.
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Kolm%C3%A5rden_Wolf.jpg/330px-Kolm%C3%A5rden_Wolf.jpg" alt="">
+</div>
+
+<br> <br> <br> <br> <br>
+
+<div id="tiger">
+  <h3>BENGAL TIGER</h3>
+  <hr>
+  <br>
+  <br>
+  <p>
+    The Bengal tiger is a tiger from a specific population of the Panthera tigris tigris subspecies that is native to the Indian subcontinent. It is threatened by poaching, loss, and fragmentation of habitat, and was estimated at comprising fewer than 2,500 wild individuals by 2011.
+  </p>
+  <img src="https://www.sunderbannationalpark.in/blog/wp-content/uploads/2018/08/Royal-Bengal-Tiger.jpg" alt="">
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+<div id="deer">
+  <h3>BARKING DEER</h3>
+  <hr>
+  <br>
+  <br>
+  <p>
+    Muntjacs (/mʌndʒɑːk/ MUN-jahk), also known as barking deer or rib-faced deer are small deer of the genus Muntiacus native to south and southeast Asia. Muntjacs are thought to have begun appearing 15–35 million years ago, with remains found in Miocene deposits in France, Germany[1] and Poland.[2] Most species are listed as Least Concern or Data Deficient by the IUCN although others such as the black muntjac, Bornean yellow muntjac and giant muntjac are Vulnerable, Near Threatened and Critically Endangered respectively.
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Muntiacus_sp_-_Hai_Hong_Karni.jpg/330px-Muntiacus_sp_-_Hai_Hong_Karni.jpg" alt="">
+</div>
+
+<br> <br> <br> <br> <br> <br> <br>
+
+<div id="elephant">
+  <h3>ASIAN ELEPHANT</h3>
+  <hr>
+  <br>
+  <br>
+  <p>
+    The Asian elephant (Elephas maximus), also known as the Asiatic elephant, is the only living species of the genus Elephas and is distributed throughout the Indian subcontinent and Southeast Asia, from India in the west, Nepal in the north, Sumatra in the south, and to Borneo in the east. Three subspecies are recognised—E. m. maximus from Sri Lanka, E. m. indicus from mainland Asia and E. m. sumatranus from the island of Sumatra
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Elephas_maximus_%28Bandipur%29.jpg/330px-Elephas_maximus_%28Bandipur%29.jpg" alt="">
+</div>
+<br> <br> <br>
+</div>
+
+
+<h1 class="aquatic">AQUATIC ANIMALS</h1>
+
+<div class="aanimal">
+
+<div id="dugong">
+  <h3>DUGONG</h3>
+  <hr>
+  <br>
+  <br>
+  <p>
+    Known as ‘the angel of the sea’, the Dugong is gentle marine giant closely related to a manatee. They are herbivores who feed on underwater grasses and can be in the warm Indian Ocean. Intrepid travellers can scuba dive alongside the peaceful creatures in the Andamans or the Gulf of Kutch
+  </p>
+  <img src="https://www.experiencetravelgroup.com/blog/wp-content/uploads/2018/04/Dugong-700x400.jpg" alt="">
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+<div id="fish">
+  <h3>REDTAIL BUTTERFLYFISH</h3>
+  <hr>
+  <br>
+  <br>
+  <p>
+    There are strong affinities and relationships between Mediterranean and Atlantic faunas. The deep-water fauna of the Mediterranean has no distinctive characteristics and is relatively poor. Both are a result of events after the Messinian salinity crisis.[7] An invasion of Indian Ocean species has begun via the Suez Canal (see Lessepsian migration).
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Chaetodon_collare_1.jpg/330px-Chaetodon_collare_1.jpg" alt="">
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br>
+
+<div id="seals">
+  <h3>BAIKAL SEALS</h3>
+  <hr>
+  <br>
+  <br>
+  <p>
+    The rivers of North Asia are inhabited by many common freshwater fishes and by several kinds of sturgeons, including sterlets. Lake Baikal has a unique aquatic life, including many endemic species of sponges, worms, and crustaceans and the Baikal seal (Phoca sibirica).
+  </p>
+  <img src="https://www.visitrussia.org.uk/images/baikal-seal2-1024x685/gallery_master/?m=nbf" alt="">
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+<div id="giant">
+  <h3>GIANT GOURAMI</h3>
+  <hr>
+  <br>
+  <br>
+  <p>
+    The freshwater fish life of the Oriental region is rich. The carp and catfish families have many native genera and species. The labyrinth fish (so named for a labyrinthine outpocketing of the gill chamber that permits them to take oxygen from air as well as from water), to which the climbing perch and the gourami belong, are characteristic of the fish life of the region, as are spinyeels.
+  </p>
+  <img src="https://cdn.britannica.com/s:700x500/33/117533-050-5A23020C/Giant-gourami.jpg" alt="">
+</div>
+</div>
+<br> <br> <br> <br> <br> <br> <br> 
+
+<h1 class="reptiles">REPTILES</h1>
+<br>
+<div class="reptile">
+<div id="viper">
+  <h3>VIPERIDAE</h3>
+  <hr>
+  <br>
+  <br>
+  <p>
+    The Viperidae are a family of venomous snakes found in most parts of the world, with the exception of Antarctica, Australia, Hawaii, Madagascar, various other isolated islands, and north of the Arctic Circle. All have relatively long, hinged fangs that permit deep penetration and injection of snake venom.
+  </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Benny_Trapp_Montivipera_xanthina.jpg" alt="">
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+<div id="monitorlizards">
+  <h3>MONITOR LIZARDS</h3>
+  <hr>
+  <br>
+  <br>
+  <p>
+    Monitor lizards are large lizards in the genus Varanus. They are native to Africa, Asia, and Oceania, but are now found also in the Americas as an invasive species. About 80 species are recognized. Monitor lizards have long necks, powerful tails and claws, and well-developed limbs.
+  </p>
+  <img src="https://www.democraticaccent.com/wp-content/uploads/2019/10/Indian-monitor-lizard-1200x720.jpg" alt="">
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+<div id="dragon">
+  <h3>KOMODO DARGON</h3>
+  <hr>
+  <br>
+  <br>
+  <p>
+    The Komodo dragon, also known as the Komodo monitor, is a species of lizard found in the Indonesian islands of Komodo, Rinca, Flores, and Gili Motang.
+  </p>
+  <img src="https://media.cntraveler.com/photos/590b484796ac4049cc0edcc0/16:9/w_2560%2Cc_limit/GettyImages-200253900-001.jpg" alt="">
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+<div id="gecko">
+  <h3>TOKAY GECKO</h3>
+  <hr>
+  <br>
+  <br>
+  <p>
+    Gekko gecko, the tokay gecko, is a crepuscular arboreal gecko in the genus Gekko, the true geckos. It is native to Asia and some Pacific Islands
+  </p>
+  <img src="https://vignette.wikia.nocookie.net/creatures-of-the-world/images/1/1d/Tokay-gecko_2.jpg/revision/latest/scale-to-width-down/340?cb=20161122130351" alt="">
+</div>
+</div>
+<br> <br> <br> <br> <br> <br> <br>
+<a href="#homenav" id="button-top"> <b> Back to Top 🔼 </b> </a>
+</div>
+</body>
+<script src="./animal.js"></script>
+</html>

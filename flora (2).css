@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+}
+
+.h1 {
+    font-size: 100px;
+}
+
+.section {
+    background-image: url("https://images.unsplash.com/photo-1496660818001-d4f9b64f68f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 790px;
+    color: white;
+    font-weight: 2000;
+}
+
+#container {
+    background-image: url("https://images.unsplash.com/photo-1464982326199-86f32f81b211?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1800px;
+    color: white;
+    font-weight: 2000;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+ul,
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row;
+}
+
+.asia>img {
+    height: 200px;
+    width: 400px;
+}
+
+.asia {
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-weight: 700;
+     font-size: 1.2em;
+}
+
+nav {
+    background-color: black;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.top {
+    background-color: deeppink;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#scroll {
+    width: 200px;
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-play-state: running;
+}
+
+@keyframes mymove {
+    from {
+        top: 15px;
+    }
+
+    to {
+        top: 100px;
+    }
+}

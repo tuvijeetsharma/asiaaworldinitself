@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+th,
+td,
+table,
+tr {
+    border: 5px solid midnightblue;
+    margin: auto;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+body {
+    text-align: center;
+    font-family: "Coming Soon", cursive;
+    font-weight: bolder;
+    background-position: center;
+}
+
+.section {
+    background-image: url("https://images.unsplash.com/photo-1578556881767-c2cf0bfc9ea3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3700px;
+    color: white;
+    font-weight: 2000;
+}
+
+
+#contain {
+    background-image: url("https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    color: white;
+    font-weight: 2000;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+table {
+    margin: auto;
+    padding: 5px;
+}
+
+#button-top {
+    text-decoration: none;
+    color: black;
+    background: lightskyblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav,
+ul,
+li {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+nav {
+    background-color: black;
+    padding: 5px;
+    width: 1508px;
+}
+
+
+li>a {
+    color: white;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+
+#scroll {
+    width: 200px;
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-play-state: running;
+}
+
+@keyframes mymove {
+    from {
+        top: 15px;
+    }
+
+    to {
+        top: 100px;
+    }
+}
